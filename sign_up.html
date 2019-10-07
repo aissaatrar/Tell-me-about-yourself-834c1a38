@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>formulier</title>
+  <meta name="description" content="formulier">
+  <meta name="keywords" content="formulier">
+  <meta name="author" content="aissa atrar">
+  <link rel="stylesheet" href="stijl.css">
+</head>
+
+<body>
+
+<h1>Bit Academy Sign Up</h1>
+
+<div>
+<form action="">
+Name:<input type="text" name="Naam" placeholder="wat is jou naam?" required>
+<br><br>
+E-mail:<input type="email" name="email"required>
+<br><br>
+Tel: <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+<br><br>
+pin: <input type="password" name="pin" maxlength="4"required>
+<br><br>
+
+<select name="klas" form="klas">
+  <option value="">kies een optie</option>
+  <option value="1">Drenthe</option>
+  <option value="2">flevoland</option>
+  <option value="3">friesland</option>
+  <option value="4">gelderland</option>
+  <option value="5">groningen</option>
+  <option value="6">limburg</option>
+  <option value="7">noord brabant</option>
+  <option value="8">noord holland</option>
+  <option value="9">overijssel</option>
+  <option value="10">zuid holland</option>
+  <option value="11">utrecht</option>
+  <option value="12">zeeland</option>
+</select>
+
+<p>Hou je van voetbal</p>
+  <input type="radio" name="age" value="ja"> ja<br>
+  <input type="radio" name="age" value="nee"> nee<br>
+
+
+
+<p>Favoriete dag in de week</p>
+  <input type="checkbox" name="vehicle1" value="m1" checked> maandag<br>
+  <input type="checkbox" name="vehicle2" value="d1"> dinsdag<br>
+  <input type="checkbox" name="vehicle3" value="w1"> woensdag<br>
+  <input type="checkbox" name="vehicle1" value="do1"> donderdag<br>
+  <input type="checkbox" name="vehicle2" value="v1"> vrijdag<br>
+  <input type="checkbox" name="vehicle3" value="za1"> zaterdag<br>
+    <input type="checkbox" name="vehicle3" value="zo1"> zondag<br>
+
+<br><br>
+
+<input type="submit">
+<script src="script.js"></script>
+</form>
+<div/>
+
+</body>
+
+</html>
